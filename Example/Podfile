@@ -1,0 +1,6 @@
+use_frameworks!
+target 'JKAuthDemoFrameworkPod_Tests' do
+  pod 'JKAuthDemoFrameworkPod', :path => '../'
+  
+  
+end
