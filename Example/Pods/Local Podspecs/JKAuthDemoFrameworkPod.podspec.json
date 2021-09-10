@@ -1,0 +1,22 @@
+{
+  "name": "JKAuthDemoFrameworkPod",
+  "version": "0.1.0",
+  "summary": "A short description of JKAuthDemoFrameworkPod.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/sagiters19@gmail.com/JKAuthDemoFrameworkPod",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "sagiters19@gmail.com": "sagiters19@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/sagiters19@gmail.com/JKAuthDemoFrameworkPod.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "JKAuthDemoFrameworkPod/Classes/**/*"
+}

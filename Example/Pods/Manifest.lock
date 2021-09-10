@@ -1,0 +1,16 @@
+PODS:
+  - JKAuthDemoFrameworkPod (0.1.0)
+
+DEPENDENCIES:
+  - JKAuthDemoFrameworkPod (from `../`)
+
+EXTERNAL SOURCES:
+  JKAuthDemoFrameworkPod:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JKAuthDemoFrameworkPod: 85b4c02e2489c766f1fac27b901a538fd9a1429a
+
+PODFILE CHECKSUM: 3b5ec62ae2b48fa4fe8619111793e82cd7d7dd6a
+
+COCOAPODS: 1.10.1

@@ -1,0 +1,6 @@
+framework module JKAuthDemoFrameworkPod {
+  umbrella header "JKAuthDemoFrameworkPod-umbrella.h"
+
+  export *
+  module * { export * }
+}
