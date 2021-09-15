@@ -34,7 +34,8 @@ TODO: Add long description of the pod here.
   # swift版本
   s.swift_versions = "5.0"
 
-  s.vendored_frameworks = 'JKAuthDemoFrameworkPod/*.{framework}'
+  # s.vendored_frameworks = 'JKAuthDemoFrameworkPod/*.{framework}'
+  s.vendored_frameworks = 'JKAuthDemoFrameworkPod/*.{xcframework}'
   s.source_files = 'JKAuthDemoFrameworkPod/Classes/**/*'
   
   # s.resource_bundles = {
