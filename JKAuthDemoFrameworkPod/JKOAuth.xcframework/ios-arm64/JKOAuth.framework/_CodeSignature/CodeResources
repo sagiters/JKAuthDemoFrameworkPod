@@ -16,29 +16,29 @@
 		<data>
 		QklOGlCRnEI0viSo4M41LOfaycQ=
 		</data>
-		<key>Modules/JKOAuth.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
-		<data>
-		d+0HOe3E/6rkpnM6o8MB1pBNZOQ=
-		</data>
-		<key>Modules/JKOAuth.swiftmodule/Project/arm64.swiftsourceinfo</key>
-		<data>
-		d+0HOe3E/6rkpnM6o8MB1pBNZOQ=
-		</data>
 		<key>Modules/JKOAuth.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		cdKxJ/RPorkGZilskiFAEU74Rhc=
+		Fv1msz0wBQjoLJ40cY+W5msKmhk=
+		</data>
+		<key>Modules/JKOAuth.swiftmodule/arm64-apple-ios.swiftinterface</key>
+		<data>
+		BHsMQqZxT5V9UGgP1i63GZu8Apg=
 		</data>
 		<key>Modules/JKOAuth.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		R8RZ8WCQyQeBoBohXdP2tR2aBoE=
+		w+8HAAm5SuXe7LqSpvkghvIocT4=
 		</data>
 		<key>Modules/JKOAuth.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		cdKxJ/RPorkGZilskiFAEU74Rhc=
+		Fv1msz0wBQjoLJ40cY+W5msKmhk=
+		</data>
+		<key>Modules/JKOAuth.swiftmodule/arm64.swiftinterface</key>
+		<data>
+		BHsMQqZxT5V9UGgP1i63GZu8Apg=
 		</data>
 		<key>Modules/JKOAuth.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		R8RZ8WCQyQeBoBohXdP2tR2aBoE=
+		w+8HAAm5SuXe7LqSpvkghvIocT4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -69,70 +69,70 @@
 			r52J11dQq8KINybs4jJqyl65jgoVSgojxcjX+cFfkfw=
 			</data>
 		</dict>
-		<key>Modules/JKOAuth.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			d+0HOe3E/6rkpnM6o8MB1pBNZOQ=
-			</data>
-			<key>hash2</key>
-			<data>
-			xUvk9WJk3+16sR6gIr2PXWqBR7NPstBY4bSpEdq9izo=
-			</data>
-		</dict>
-		<key>Modules/JKOAuth.swiftmodule/Project/arm64.swiftsourceinfo</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			d+0HOe3E/6rkpnM6o8MB1pBNZOQ=
-			</data>
-			<key>hash2</key>
-			<data>
-			xUvk9WJk3+16sR6gIr2PXWqBR7NPstBY4bSpEdq9izo=
-			</data>
-		</dict>
 		<key>Modules/JKOAuth.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			cdKxJ/RPorkGZilskiFAEU74Rhc=
+			Fv1msz0wBQjoLJ40cY+W5msKmhk=
 			</data>
 			<key>hash2</key>
 			<data>
-			8FY8L13ceGL/cAHOYNNPkjCrUA0RaHodR9q9Rg+pPi4=
+			j8eoL3o0iHx0Pz48HgbbC9oEQypz9Cp+e2inp2O80zw=
+			</data>
+		</dict>
+		<key>Modules/JKOAuth.swiftmodule/arm64-apple-ios.swiftinterface</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			BHsMQqZxT5V9UGgP1i63GZu8Apg=
+			</data>
+			<key>hash2</key>
+			<data>
+			0QF8an71scRgQ0jnNTvKp5G7oi3hw/j7RFkXBYloWaw=
 			</data>
 		</dict>
 		<key>Modules/JKOAuth.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			R8RZ8WCQyQeBoBohXdP2tR2aBoE=
+			w+8HAAm5SuXe7LqSpvkghvIocT4=
 			</data>
 			<key>hash2</key>
 			<data>
-			nFdgyC/EG1UOiBKEAdsR7rM/wqZ1LvMtlgrSagig8UM=
+			fxyyJzwT0k5puh9hdDUQFTd4FBrUwg+HvPhjkx3gLTI=
 			</data>
 		</dict>
 		<key>Modules/JKOAuth.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			cdKxJ/RPorkGZilskiFAEU74Rhc=
+			Fv1msz0wBQjoLJ40cY+W5msKmhk=
 			</data>
 			<key>hash2</key>
 			<data>
-			8FY8L13ceGL/cAHOYNNPkjCrUA0RaHodR9q9Rg+pPi4=
+			j8eoL3o0iHx0Pz48HgbbC9oEQypz9Cp+e2inp2O80zw=
+			</data>
+		</dict>
+		<key>Modules/JKOAuth.swiftmodule/arm64.swiftinterface</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			BHsMQqZxT5V9UGgP1i63GZu8Apg=
+			</data>
+			<key>hash2</key>
+			<data>
+			0QF8an71scRgQ0jnNTvKp5G7oi3hw/j7RFkXBYloWaw=
 			</data>
 		</dict>
 		<key>Modules/JKOAuth.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			R8RZ8WCQyQeBoBohXdP2tR2aBoE=
+			w+8HAAm5SuXe7LqSpvkghvIocT4=
 			</data>
 			<key>hash2</key>
 			<data>
-			nFdgyC/EG1UOiBKEAdsR7rM/wqZ1LvMtlgrSagig8UM=
+			fxyyJzwT0k5puh9hdDUQFTd4FBrUwg+HvPhjkx3gLTI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

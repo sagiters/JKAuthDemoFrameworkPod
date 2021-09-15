@@ -1,0 +1,62 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.4.2 (swiftlang-1205.0.28.2 clang-1205.0.19.57)
+// swift-module-flags: -target arm64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name JKOAuth
+import AdSupport
+import AppTrackingTransparency
+import Foundation
+@_exported import JKOAuth
+import Swift
+import UIKit
+@_hasMissingDesignatedInitializers public class JKOAuthService {
+  public func application(_ application: UIKit.UIApplication, didFinishLaunchingWithOptions launchOptions: [UIKit.UIApplication.LaunchOptionsKey : Any]?)
+  @discardableResult
+  public func application(_ app: UIKit.UIApplication, open url: Foundation.URL, sourceApplication: Swift.String?, annotation: Any?) -> Swift.Bool
+  public static func goToJKOSAppStore()
+  @objc deinit
+}
+public protocol AlamoWaterProtocol {
+  func didCallHello()
+}
+@objc @_inheritsConvenienceInitializers open class AlamoWater : ObjectiveC.NSObject {
+  public static var shared: JKOAuth.AlamoWater
+  public var delegate: JKOAuth.AlamoWaterProtocol?
+  open func hello()
+  @objc override dynamic public init()
+  @objc deinit
+}
+public enum JKOAuthScopes : Swift.String {
+  case userInfo
+  case userVerifiedInfo
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class JKOAuthButton : UIKit.UIButton {
+  @objc deinit
+}
+public enum JKOAuthSettingError : Swift.Error {
+  case clientIDNotFound
+  case bundleIDNotFound
+  case undefined(code: Swift.Int)
+  public var errorMsg: Swift.String {
+    get
+  }
+}
+public struct JKOAuthError {
+  public let errorCode: Swift.String
+}
+public protocol JKOAuthDelegate : AnyObject {
+  func failToStartAuth(error: JKOAuth.JKOAuthSettingError)
+  func jkosAppNotFound()
+  func authDidCancel()
+  func authDidSuccess(authCode: Swift.String)
+  func authDidFailed(error: JKOAuth.JKOAuthError)
+}
+public class JKOAuthManager {
+  weak public var delegate: JKOAuth.JKOAuthDelegate?
+  public init()
+  public func start(scopes: [JKOAuth.JKOAuthScopes])
+  @objc deinit
+}

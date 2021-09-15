@@ -7,17 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0660B1A5447654DDEAC74DDA62FE8284 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		521F2EE0A0D699A23353B13E400C9527 /* Pods-JKAuthDemoFrameworkPod_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D210EAFC455AAE20D57C27AC72949596 /* Pods-JKAuthDemoFrameworkPod_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7E89E4918C903B4189E61172EC3B8569 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		91B2D512F84FDEE0DF44CCA92776533D /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8D371DF52BAE0259AFAEDA383BBA6A /* ReplaceMe.swift */; };
-		B81E8F29BE37A15ADE5DF22B5C70B5C5 /* JKAuthDemoFrameworkPod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C422DB2D88154C2F9FBA790A6F9E9AF2 /* JKAuthDemoFrameworkPod-dummy.m */; };
-		C5565277C43C50E6FF4C13313AE15EC0 /* JKAuthDemoFrameworkPod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9493D40ECBB20A19EFE19219CFAEA45F /* JKAuthDemoFrameworkPod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CECAB3AC0EF85407EEC54ED8BA0B61B0 /* Pods-JKAuthDemoFrameworkPod_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F6A5C029BE9C1812BCC141A7358D50 /* Pods-JKAuthDemoFrameworkPod_Tests-dummy.m */; };
+		43629FA0B028ECD31D6A07FDBCB1ECF7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		54D9487BF447A05D3060974CDEB530AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		583CA681252801AA3BF04F895CF363F1 /* Pods-JKAuthDemoFrameworkPod_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F6A5C029BE9C1812BCC141A7358D50 /* Pods-JKAuthDemoFrameworkPod_Tests-dummy.m */; };
+		74CCDB51892A36DEE27096800D0D5721 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8D371DF52BAE0259AFAEDA383BBA6A /* ReplaceMe.swift */; };
+		88BFCCE9DEEA54FE22C3EC80EEC87BF6 /* JKAuthDemoFrameworkPod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9493D40ECBB20A19EFE19219CFAEA45F /* JKAuthDemoFrameworkPod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F1803EAA3E689692F1AA50DF066F23C4 /* Pods-JKAuthDemoFrameworkPod_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D210EAFC455AAE20D57C27AC72949596 /* Pods-JKAuthDemoFrameworkPod_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FDDB63716E255B0F410612BA047DC92D /* JKAuthDemoFrameworkPod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C422DB2D88154C2F9FBA790A6F9E9AF2 /* JKAuthDemoFrameworkPod-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		C02BD9CA05162D9384D723320ECB22F0 /* PBXContainerItemProxy */ = {
+		5EA48CE2F2FBB69E70088878EEEFADF4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -45,28 +45,28 @@
 		A3CC92307BF25A9E6C7CEA0ECC88420D /* JKAuthDemoFrameworkPod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JKAuthDemoFrameworkPod.release.xcconfig; sourceTree = "<group>"; };
 		A75F83FF63EDDE2B4B59112B122599D0 /* JKAuthDemoFrameworkPod.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = JKAuthDemoFrameworkPod.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		ABBEED13748B1DFE17362870E73F5362 /* Pods-JKAuthDemoFrameworkPod_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JKAuthDemoFrameworkPod_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		ADBFADE5643B56CA2CE61E7AB8402210 /* JKAuthDemoFrameworkPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JKAuthDemoFrameworkPod.framework; path = JKAuthDemoFrameworkPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADBFADE5643B56CA2CE61E7AB8402210 /* JKAuthDemoFrameworkPod */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JKAuthDemoFrameworkPod; path = JKAuthDemoFrameworkPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAF4EE2377E9155006C459B8756ECAAC /* JKAuthDemoFrameworkPod-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JKAuthDemoFrameworkPod-Info.plist"; sourceTree = "<group>"; };
 		C422DB2D88154C2F9FBA790A6F9E9AF2 /* JKAuthDemoFrameworkPod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JKAuthDemoFrameworkPod-dummy.m"; sourceTree = "<group>"; };
 		D210EAFC455AAE20D57C27AC72949596 /* Pods-JKAuthDemoFrameworkPod_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JKAuthDemoFrameworkPod_Tests-umbrella.h"; sourceTree = "<group>"; };
 		D7919597A6395F66E3855BB2556F0870 /* JKAuthDemoFrameworkPod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JKAuthDemoFrameworkPod.modulemap; sourceTree = "<group>"; };
-		E575B1518970A078FF8203E4390042E5 /* Pods_JKAuthDemoFrameworkPod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JKAuthDemoFrameworkPod_Tests.framework; path = "Pods-JKAuthDemoFrameworkPod_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E575B1518970A078FF8203E4390042E5 /* Pods-JKAuthDemoFrameworkPod_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-JKAuthDemoFrameworkPod_Tests"; path = Pods_JKAuthDemoFrameworkPod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		11D1CD6F8EA258D54C0F3CA3A1A84892 /* Frameworks */ = {
+		23DB2112D2EE84720F58EFD018ABC66F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E89E4918C903B4189E61172EC3B8569 /* Foundation.framework in Frameworks */,
+				43629FA0B028ECD31D6A07FDBCB1ECF7 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		66BB0B1FD505F294C4DE6E9725B72554 /* Frameworks */ = {
+		3E6EF5C508784AD12E09750846FF1CA3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0660B1A5447654DDEAC74DDA62FE8284 /* Foundation.framework in Frameworks */,
+				54D9487BF447A05D3060974CDEB530AD /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,11 +101,11 @@
 			path = "Target Support Files/Pods-JKAuthDemoFrameworkPod_Tests";
 			sourceTree = "<group>";
 		};
-		2CA8280E99E3B682C3217F9AF4C6A29C /* Products */ = {
+		43DE3D1C6C282173C27451F5BDE7BB2A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				ADBFADE5643B56CA2CE61E7AB8402210 /* JKAuthDemoFrameworkPod.framework */,
-				E575B1518970A078FF8203E4390042E5 /* Pods_JKAuthDemoFrameworkPod_Tests.framework */,
+				ADBFADE5643B56CA2CE61E7AB8402210 /* JKAuthDemoFrameworkPod */,
+				E575B1518970A078FF8203E4390042E5 /* Pods-JKAuthDemoFrameworkPod_Tests */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -157,7 +157,7 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				C0A9E96F1B4A611C41FD11214A9AA21A /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				2CA8280E99E3B682C3217F9AF4C6A29C /* Products */,
+				43DE3D1C6C282173C27451F5BDE7BB2A /* Products */,
 				DF1196B54DBB25960C8FFEB82D00F6F3 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -181,19 +181,19 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		697F765B67D24980246FE03A52FAB16B /* Headers */ = {
+		58649E8338141D39B6A2007DCE880871 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				521F2EE0A0D699A23353B13E400C9527 /* Pods-JKAuthDemoFrameworkPod_Tests-umbrella.h in Headers */,
+				F1803EAA3E689692F1AA50DF066F23C4 /* Pods-JKAuthDemoFrameworkPod_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F41F5FD3A0C2AC09AE392A9A21E1A5A1 /* Headers */ = {
+		F7C2459630A85D6F2C3815CF9D1394FD /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C5565277C43C50E6FF4C13313AE15EC0 /* JKAuthDemoFrameworkPod-umbrella.h in Headers */,
+				88BFCCE9DEEA54FE22C3EC80EEC87BF6 /* JKAuthDemoFrameworkPod-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,12 +202,12 @@
 /* Begin PBXNativeTarget section */
 		0881363BBC88A87232317C5B32004773 /* JKAuthDemoFrameworkPod */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ED841A6D61995E095DE3B72C61FE581E /* Build configuration list for PBXNativeTarget "JKAuthDemoFrameworkPod" */;
+			buildConfigurationList = 1D73642A801A8F661670A16A0D0762ED /* Build configuration list for PBXNativeTarget "JKAuthDemoFrameworkPod" */;
 			buildPhases = (
-				F41F5FD3A0C2AC09AE392A9A21E1A5A1 /* Headers */,
-				FAECA7E7C20123851381925B0E541886 /* Sources */,
-				66BB0B1FD505F294C4DE6E9725B72554 /* Frameworks */,
-				2CEAE89BF1F675593BDE6C4ED8F4FA29 /* Resources */,
+				F7C2459630A85D6F2C3815CF9D1394FD /* Headers */,
+				7CED54F3EB075E6DB6C54CDC90DCF962 /* Sources */,
+				3E6EF5C508784AD12E09750846FF1CA3 /* Frameworks */,
+				00CFFBCDEA9ADB39EE5DF4837247BFF7 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -215,26 +215,26 @@
 			);
 			name = JKAuthDemoFrameworkPod;
 			productName = JKAuthDemoFrameworkPod;
-			productReference = ADBFADE5643B56CA2CE61E7AB8402210 /* JKAuthDemoFrameworkPod.framework */;
+			productReference = ADBFADE5643B56CA2CE61E7AB8402210 /* JKAuthDemoFrameworkPod */;
 			productType = "com.apple.product-type.framework";
 		};
 		0BF32929EEDB5A035F8306605B2C721B /* Pods-JKAuthDemoFrameworkPod_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 76FB60BEACF6E02335D5EA9FFE5A4015 /* Build configuration list for PBXNativeTarget "Pods-JKAuthDemoFrameworkPod_Tests" */;
+			buildConfigurationList = C6ADE8247E5290EB79F4F3054FBE664F /* Build configuration list for PBXNativeTarget "Pods-JKAuthDemoFrameworkPod_Tests" */;
 			buildPhases = (
-				697F765B67D24980246FE03A52FAB16B /* Headers */,
-				501426F279982514039F2F84E3963C61 /* Sources */,
-				11D1CD6F8EA258D54C0F3CA3A1A84892 /* Frameworks */,
-				740D56A965D4D391F88FFBE90F89FF01 /* Resources */,
+				58649E8338141D39B6A2007DCE880871 /* Headers */,
+				66B5B92BB22D9C4D6FCA22F79AF18EAB /* Sources */,
+				23DB2112D2EE84720F58EFD018ABC66F /* Frameworks */,
+				CC730FCC68C2BDF66644BF51064F4394 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				7608FE2ED05C7C5FD9BB0B2BAC77CE82 /* PBXTargetDependency */,
+				F635CC5484BB83620AC6E5BBBD03A323 /* PBXTargetDependency */,
 			);
 			name = "Pods-JKAuthDemoFrameworkPod_Tests";
-			productName = "Pods-JKAuthDemoFrameworkPod_Tests";
-			productReference = E575B1518970A078FF8203E4390042E5 /* Pods_JKAuthDemoFrameworkPod_Tests.framework */;
+			productName = Pods_JKAuthDemoFrameworkPod_Tests;
+			productReference = E575B1518970A078FF8203E4390042E5 /* Pods-JKAuthDemoFrameworkPod_Tests */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -243,19 +243,19 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1100;
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
+				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 2CA8280E99E3B682C3217F9AF4C6A29C /* Products */;
+			productRefGroup = 43DE3D1C6C282173C27451F5BDE7BB2A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -266,14 +266,14 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2CEAE89BF1F675593BDE6C4ED8F4FA29 /* Resources */ = {
+		00CFFBCDEA9ADB39EE5DF4837247BFF7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		740D56A965D4D391F88FFBE90F89FF01 /* Resources */ = {
+		CC730FCC68C2BDF66644BF51064F4394 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -283,38 +283,38 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		501426F279982514039F2F84E3963C61 /* Sources */ = {
+		66B5B92BB22D9C4D6FCA22F79AF18EAB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CECAB3AC0EF85407EEC54ED8BA0B61B0 /* Pods-JKAuthDemoFrameworkPod_Tests-dummy.m in Sources */,
+				583CA681252801AA3BF04F895CF363F1 /* Pods-JKAuthDemoFrameworkPod_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FAECA7E7C20123851381925B0E541886 /* Sources */ = {
+		7CED54F3EB075E6DB6C54CDC90DCF962 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B81E8F29BE37A15ADE5DF22B5C70B5C5 /* JKAuthDemoFrameworkPod-dummy.m in Sources */,
-				91B2D512F84FDEE0DF44CCA92776533D /* ReplaceMe.swift in Sources */,
+				FDDB63716E255B0F410612BA047DC92D /* JKAuthDemoFrameworkPod-dummy.m in Sources */,
+				74CCDB51892A36DEE27096800D0D5721 /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		7608FE2ED05C7C5FD9BB0B2BAC77CE82 /* PBXTargetDependency */ = {
+		F635CC5484BB83620AC6E5BBBD03A323 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = JKAuthDemoFrameworkPod;
 			target = 0881363BBC88A87232317C5B32004773 /* JKAuthDemoFrameworkPod */;
-			targetProxy = C02BD9CA05162D9384D723320ECB22F0 /* PBXContainerItemProxy */;
+			targetProxy = 5EA48CE2F2FBB69E70088878EEEFADF4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0280D579A014D623344D6E948813ACF1 /* Release */ = {
+		1556E0CD44DF5D9D75AB407D4444A760 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8B7747EECA252E6CF6B9E65DF1C4275E /* Pods-JKAuthDemoFrameworkPod_Tests.release.xcconfig */;
+			baseConfigurationReference = 3B4653DFB5D8D9BEB45B882ACA2944FC /* Pods-JKAuthDemoFrameworkPod_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -339,16 +339,16 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		3C16256EE4B70CE46A39291AFDE742B6 /* Debug */ = {
+		1E8BEE260037308834BE31F4E65EFEF3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2367E5407578CF719BF262B769B2A8FD /* JKAuthDemoFrameworkPod.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -360,7 +360,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/JKAuthDemoFrameworkPod/JKAuthDemoFrameworkPod-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/JKAuthDemoFrameworkPod/JKAuthDemoFrameworkPod-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/JKAuthDemoFrameworkPod/JKAuthDemoFrameworkPod.modulemap";
 				PRODUCT_MODULE_NAME = JKAuthDemoFrameworkPod;
@@ -368,7 +368,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -434,6 +434,39 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		4D2A677434FC2DE6F97296D41E702FDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B7747EECA252E6CF6B9E65DF1C4275E /* Pods-JKAuthDemoFrameworkPod_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JKAuthDemoFrameworkPod_Tests/Pods-JKAuthDemoFrameworkPod_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JKAuthDemoFrameworkPod_Tests/Pods-JKAuthDemoFrameworkPod_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -503,10 +536,11 @@
 			};
 			name = Debug;
 		};
-		C514312F5467958FAF3F44D50AE3A2DA /* Release */ = {
+		79FDC14D8EB9F4DD53EC01A2C0EA6980 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A3CC92307BF25A9E6C7CEA0ECC88420D /* JKAuthDemoFrameworkPod.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -518,7 +552,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/JKAuthDemoFrameworkPod/JKAuthDemoFrameworkPod-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/JKAuthDemoFrameworkPod/JKAuthDemoFrameworkPod-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/JKAuthDemoFrameworkPod/JKAuthDemoFrameworkPod.modulemap";
 				PRODUCT_MODULE_NAME = JKAuthDemoFrameworkPod;
@@ -526,7 +560,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -534,41 +568,18 @@
 			};
 			name = Release;
 		};
-		CDE7B70A9CA7DDDC85A82BA009C7C1D9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B4653DFB5D8D9BEB45B882ACA2944FC /* Pods-JKAuthDemoFrameworkPod_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-JKAuthDemoFrameworkPod_Tests/Pods-JKAuthDemoFrameworkPod_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-JKAuthDemoFrameworkPod_Tests/Pods-JKAuthDemoFrameworkPod_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1D73642A801A8F661670A16A0D0762ED /* Build configuration list for PBXNativeTarget "JKAuthDemoFrameworkPod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E8BEE260037308834BE31F4E65EFEF3 /* Debug */,
+				79FDC14D8EB9F4DD53EC01A2C0EA6980 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -578,20 +589,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		76FB60BEACF6E02335D5EA9FFE5A4015 /* Build configuration list for PBXNativeTarget "Pods-JKAuthDemoFrameworkPod_Tests" */ = {
+		C6ADE8247E5290EB79F4F3054FBE664F /* Build configuration list for PBXNativeTarget "Pods-JKAuthDemoFrameworkPod_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CDE7B70A9CA7DDDC85A82BA009C7C1D9 /* Debug */,
-				0280D579A014D623344D6E948813ACF1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		ED841A6D61995E095DE3B72C61FE581E /* Build configuration list for PBXNativeTarget "JKAuthDemoFrameworkPod" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3C16256EE4B70CE46A39291AFDE742B6 /* Debug */,
-				C514312F5467958FAF3F44D50AE3A2DA /* Release */,
+				1556E0CD44DF5D9D75AB407D4444A760 /* Debug */,
+				4D2A677434FC2DE6F97296D41E702FDC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
