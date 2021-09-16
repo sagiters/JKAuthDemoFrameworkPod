@@ -25,7 +25,7 @@ pod 'JKAuthDemoFrameworkPod'
 ```ruby
 <key>LSApplicationQueriesSchemes</key>
 <array>
-	<string>jkos</string>
+  <string>jkos</string>
 </array>
 <key>JKOClientID</key>
 <string>JKOS-ID</string>
