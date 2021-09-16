@@ -20,6 +20,30 @@ it, simply add the following line to your Podfile:
 pod 'JKAuthDemoFrameworkPod'
 ```
 
+## Configure Your Project
+
+```ruby
+<key>LSApplicationQueriesSchemes</key>
+<array>
+	<string>jkos</string>
+</array>
+<key>JKOClientID</key>
+<string>20190331562013861008375808</string>
+<key>CFBundleURLTypes</key>
+<array>
+  <dict>
+    <key>CFBundleTypeRole</key>
+    <string>Editor</string>
+    <key>CFBundleURLName</key>
+    <string>com.yoyaku.JKOAuthDemo</string>
+    <key>CFBundleURLSchemes</key>
+    <array>
+      <string>jkos20190331562013861008375808</string>
+    </array>
+  </dict>
+</array>
+```
+
 ## Author
 
 sagiters19@gmail.com, sagiters19@gmail.com
