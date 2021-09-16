@@ -28,17 +28,13 @@ pod 'JKAuthDemoFrameworkPod'
 	<string>jkos</string>
 </array>
 <key>JKOClientID</key>
-<string>20190331562013861008375808</string>
+<string>JKOS-ID</string>
 <key>CFBundleURLTypes</key>
 <array>
   <dict>
-    <key>CFBundleTypeRole</key>
-    <string>Editor</string>
-    <key>CFBundleURLName</key>
-    <string>com.yoyaku.JKOAuthDemo</string>
     <key>CFBundleURLSchemes</key>
     <array>
-      <string>jkos20190331562013861008375808</string>
+      <string>JKOS-ID</string>
     </array>
   </dict>
 </array>
