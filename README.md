@@ -22,6 +22,11 @@ pod 'JKAuthDemoFrameworkPod'
 
 ## Configure Your Project
 
+使用包含您應用程式資料的 XML 程式碼片段來設定 Info.plist 檔案。
+
+1. 在 Info.plist 上點擊右鍵，然後選擇以原始碼形式開啟。
+2. 複製以下 XML 程式碼片段並貼至檔案主體（<dict>...</dict>）。
+
 ```ruby
 <key>LSApplicationQueriesSchemes</key>
 <array>
@@ -34,11 +39,13 @@ pod 'JKAuthDemoFrameworkPod'
   <dict>
     <key>CFBundleURLSchemes</key>
     <array>
-      <string>JKOS-ID</string>
+      <string>JKOSURLSchemes</string>
     </array>
   </dict>
 </array>
 ```
+3. 在 [JKOClientID] 索引鍵的 <string> 中，將 JKOS-ID 替換為您申請的應用程式編號。
+4. 在 [CFBundleURLSchemes] 索引鍵的 <array><string> 中，將 JKOSURLSchemes 替換為"jkos{JKOS-ID}"。
 
 ## Connect the App Delegate
 
@@ -93,6 +100,58 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 }
 ```
 
+## Start JKOAuthManager
+```ruby=
+import UIKit
+import JKOAuth
+
+class ViewController: UIViewController {
+
+    let jkoAuth = JKOAuthManager()
+
+    let jkoAuthButton: JKOAuthButton = {
+        let btn = JKOAuthButton()
+        btn.translatesAutoresizingMaskIntoConstraints = false
+        return btn
+    }()
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view.
+
+        setupViews()
+        jkoAuthButton.addTarget(self, action: #selector(tapJKOAuthButton(_:)), for: .touchUpInside)
+    }
+
+    private func setupViews() {
+        self.view.addSubview(jkoAuthButton)
+        jkoAuthButton.heightAnchor.constraint(equalToConstant: 50).isActive = true
+        jkoAuthButton.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
+        jkoAuthButton.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
+    }
+
+    @objc private func tapJKOAuthButton(_ sender: JKOAuthButton) {
+        jkoAuth.delegate = self
+        jkoAuth.start(scopes: [.userInfo])
+    }
+}
+```
+
+## Delegate with JKOAuthDelegate
+```ruby=
+protocol JKOAuthDelegate: AnyObject {
+    /// Finish authorization successfully with auth code.
+    /// - Parameter authCode: Auth code from JKOS App.
+    func authDidSuccess(authCode: String)
+    
+    /// Finish authorization with error.
+    /// - Parameter error: Error which occurred when requbesting authorization in JKOS.
+    func authDidFailed(error: JKOAuthError)
+    
+    /// Can NOT find JKOS App in user's device.
+    func jkosAppNotFound()
+}
+```
 
 ## Author
 
