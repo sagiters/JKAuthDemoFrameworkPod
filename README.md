@@ -33,13 +33,13 @@ pod 'JKAuthDemoFrameworkPod'
   <string>jkos</string>
 </array>
 <key>JKOClientID</key>
-<string>JKOS-ID</string>
+<string>JKOS-ID</string> // <- 替換為您申請的應用程式編號
 <key>CFBundleURLTypes</key>
 <array>
   <dict>
     <key>CFBundleURLSchemes</key>
     <array>
-      <string>JKOSURLSchemes</string>
+      <string>JKOSURLSchemes</string> // <- 替換為"jkos{JKOS-ID}"
     </array>
   </dict>
 </array>
