@@ -139,17 +139,15 @@ class ViewController: UIViewController {
 
 ## Delegate with JKOAuthDelegate
 ```ruby=
-protocol JKOAuthDelegate: AnyObject {
-    /// Finish authorization successfully with auth code.
-    /// - Parameter authCode: Auth code from JKOS App.
-    func authDidSuccess(authCode: String)
-    
-    /// Finish authorization with error.
-    /// - Parameter error: Error which occurred when requbesting authorization in JKOS.
-    func authDidFailed(error: JKOAuthError)
-    
-    /// Can NOT find JKOS App in user's device.
-    func jkosAppNotFound()
+extension ViewController: JKOAuthDelegate {
+    func authDidSuccess(authCode: String) {
+    }
+
+    func authDidFailed(error: JKOAuthError) {
+    }
+
+    func jkosAppNotFound() {
+    }
 }
 ```
 
